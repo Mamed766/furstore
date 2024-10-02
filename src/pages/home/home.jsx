@@ -6,6 +6,7 @@ import Plants from "../../components/plants/Plants";
 import Arrivals from "../../components/Arrivals/Arrivals";
 import Subscribe from "../../components/subscribe/subscribe";
 import Testimonials from "../../components/testimonials/testimonials";
+import Sellers from "../../components/Sellers/Sellers";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Arrivals />
       <Subscribe />
       <Testimonials />
+      <Sellers />
     </div>
   );
 };

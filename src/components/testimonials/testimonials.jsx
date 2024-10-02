@@ -3,14 +3,14 @@ import TestCard from "../testCard/TestCard";
 const Testimonials = () => {
   return (
     <div className="max-w-screen-xl mx-auto">
-      <div className="flex flex-col justify-center items-center">
-        Testimonials
-        <p>
+      <div className="flex flex-col justify-center items-center mt-10">
+        <h2 className="text-[36px] font-semibold">Testimonials</h2>
+        <p className="text-gray-500">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam,
           veritatis.
         </p>
       </div>
-      <div className="flex flex-wrap gap-1 justify-between ">
+      <div className="flex flex-wrap gap-1 justify-between mt-5 ">
         <TestCard
           name="Emily Natasha"
           title="CEO Moose"
