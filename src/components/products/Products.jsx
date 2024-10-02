@@ -1,4 +1,3 @@
-import axios from "axios";
 import React, { useEffect, useState } from "react";
 import {
   FaAngleLeft,
@@ -8,8 +7,6 @@ import {
   FaStar,
 } from "react-icons/fa";
 import { getAllProducts } from "../../services/api";
-import { Button } from "@mui/material";
-import CustomModal from "../CustomModal/CustomModal";
 import { useNavigate } from "react-router";
 
 export const productsData = [
