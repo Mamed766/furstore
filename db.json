@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Diamond Halo Stud",
+      "price": "$628.00",
+      "image1": "https://vinova-furstore.myshopify.com/cdn/shop/products/32_540x.jpg?v=1694678290",
+      "image2": "https://vinova-furstore.myshopify.com/cdn/shop/products/32a_540x.jpg?v=1694678290",
+      "stars": 5
+    },
+    {
+      "id": 2,
+      "title": "Emerald Cut Stud",
+      "price": "$750.00",
+      "image1": "https://vinova-furstore.myshopify.com/cdn/shop/products/35_540x.jpg?v=1694678290",
+      "image2": "https://vinova-furstore.myshopify.com/cdn/shop/products/35a_540x.jpg?v=1694678290",
+      "stars": 4
+    },
+    {
+      "id": 3,
+      "title": "Round Cut Stud",
+      "price": "$500.00",
+      "image1": "https://vinova-furstore.myshopify.com/cdn/shop/products/34_540x.jpg?v=1694678290",
+      "image2": "https://vinova-furstore.myshopify.com/cdn/shop/products/34a_540x.jpg?v=1694678290",
+      "stars": 3
+    },
+    {
+      "id": 4,
+      "title": "Deneme",
+      "price": "$540.00",
+      "image1": "https://vinova-furstore.myshopify.com/cdn/shop/products/36_540x.jpg?v=1694678290",
+      "image2": "https://vinova-furstore.myshopify.com/cdn/shop/products/36a_540x.jpg?v=1694678290",
+      "stars": 5
+    }
+  ]
+}
