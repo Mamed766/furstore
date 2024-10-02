@@ -41,8 +41,9 @@ const News = () => {
             <img
               src={post.image}
               alt={post.title}
-              className="w-full h-64 object-cover"
+              className="w-full h-64 object-cover cursor-pointer duration-300"
             />
+
             <div className="pt-5">
               <p className="text-gray-500 text-sm">{post.date}</p>
               <h3 className="text-lg font-semibold my-2">{post.title}</h3>
