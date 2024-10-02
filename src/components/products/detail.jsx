@@ -11,7 +11,7 @@ const ProductDetail = () => {
   const [data, setData] = useState({});
 
   useEffect(() => {
-    getProductById(`products`, id).then((res) => setData(res));
+    getProductById(`/products`, id).then((res) => setData(res));
   }, [id]);
 
   console.log(data);
