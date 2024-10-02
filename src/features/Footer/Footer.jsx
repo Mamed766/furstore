@@ -11,7 +11,6 @@ const Footer = () => {
   return (
     <div className="bg-gray-100 py-12">
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-8">
-        {/* Logo and Contact (2 sütun kaplayacak) */}
         <div className="lg:col-span-2">
           <h2 className="text-2xl font-bold mb-4">FurStore</h2>
           <ul className="space-y-2">
@@ -27,7 +26,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* About Us */}
         <div>
           <h3 className="text-xl font-semibold mb-4">About Us</h3>
           <ul className="space-y-2">
@@ -37,7 +35,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Customer Service */}
         <div>
           <h3 className="text-xl font-semibold mb-4">Customer Service</h3>
           <ul className="space-y-2">
@@ -47,7 +44,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Support */}
         <div>
           <h3 className="text-xl font-semibold mb-4">Support</h3>
           <ul className="space-y-2">
@@ -57,7 +53,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Payments & Social Media */}
         <div>
           <h3 className="text-xl font-semibold mb-4">Payments</h3>
           <div className="flex flex-wrap gap-4 mb-4 items-center">
